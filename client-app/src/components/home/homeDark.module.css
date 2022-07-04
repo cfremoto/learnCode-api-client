@@ -1,0 +1,425 @@
+.flexContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.flexContainer2{
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 3em;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.flexContainer3{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction:column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+}
+
+.flexContainer4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, rgba(54,54,54,1) 0%, rgba(255, 255, 255, 0.1) 100%, rgba(255, 255, 255, 0.5) 100%);
+    border-radius: 0.5em;
+    width: 70em;
+    min-height: 20em;
+    margin-top: 5em;
+    -webkit-box-shadow: -4px 5px 15px 5px rgba(0,0,0,0.11); 
+    box-shadow: -4px 5px 15px 5px rgba(0,0,0,0.11);
+}
+
+
+
+.container2 {
+    display: flex;
+    padding: 20px;
+    border-radius: 0.5em;
+    width: 33.5em;
+    -webkit-box-shadow: -4px 5px 15px 5px rgb(0 0 0 / 11%);
+    box-shadow: -4px 5px 15px 5px rgb(0 0 0 / 11%);
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(54, 54, 54);
+}
+.container2 h1{
+    mix-blend-mode: exclusion;
+    color: white;
+    font-size: 25px;
+    align-self: center;
+}
+.recos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    background: #3e3e3e;
+    margin: 10px;
+    padding: 5px;
+}
+.recos h2{
+    max-width:50% ;
+    mix-blend-mode: exclusion;
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    font-weight: 200;
+}
+.recos a{
+    text-decoration: none;
+    mix-blend-mode: exclusion;
+    color: white;
+    padding: 3px 10px;
+    background-color: #2e2e2e;
+    border-radius: 8px;
+}
+
+
+.container31{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(90deg, rgba(54,54,54,1) 0%, rgba(39,39,39,0) 100%);
+    border-radius: 0.5em;
+    width: 33.5em;
+    min-height: 9em;
+    gap:1em;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(54, 54, 54, 1);
+    border-radius: 0.5em;
+    width: 33.5em;
+    height: 9em;
+    -webkit-box-shadow: -4px 5px 15px 5px rgba(0, 0, 0, 0.11);
+    box-shadow: -4px 5px 15px 5px rgba(0, 0, 0, 0.11);
+    gap: 1em;
+    position: relative;
+}
+
+.logoCont3 {
+    right: 0em;
+    width: 7em;
+    height: 7em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.container3Text {
+    width: 20em;
+    height: 8em;
+
+}
+
+.container3Text h3 {
+    color: rgb(204, 204, 204);
+    margin-top: 1em;
+}
+
+.container3Text h1 {
+    color: rgb(204, 204, 204);
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+.button {
+    margin-left: 5em;
+    background-color: rgb(31, 31, 31);
+    width: 6em;
+    border-radius: 0.5em;
+    text-align: center;
+    height: 1.8em;
+    margin-top: 1em;
+
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+.courseName {
+    margin-top: .5em;
+    display: flex;
+    width: 100%;
+    font-size: 1.7em;
+    color: white;
+    text-decoration: underline 1px;
+    margin-left: 0.5em;
+}
+.courseStats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 1em;
+    margin-top: 0.3em;
+}
+
+.courseStats svg {
+    position: relative;
+    width: 1.5em;
+    height: 1.5em;
+    color: rgb(149 0 0);
+}
+
+.courseStats span {
+    color: white;
+    font-size: 0.8em;
+    margin-right: 2em;
+    margin-top: 0.3em;
+
+}
+
+.courseStats button {
+    background: none;
+    border: none;
+}
+.descripcion {
+    display: flex;
+    min-height: 4em;
+}
+
+.descripcion span {
+    color: white;
+
+}
+
+.lenguaje {
+    width: 4em;
+    position: absolute;
+    height: 4em;
+    right: 0;
+    top: 10px;
+}
+
+.lenguaje svg {
+    width: 4em;
+    position: absolute;
+    right: 0;
+    height: 4em;
+    align-self: center;
+}
+.flexContainerCard {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+.mas{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+/* .corazon{
+    display: flex;
+} */
+.tit{
+    margin-top: 20px;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.logoCont3{
+    right: 0em;
+    width: 7em;
+    height: 7em;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.container3Text{
+    width: 20em;
+    height: 8em;
+
+}
+
+.container3Text h3{
+    color:rgb(204, 204, 204);
+    margin-top:1em;
+}
+.container3Text h1{
+    color:rgb(204, 204, 204);
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+.button{
+    margin-left: 5em;
+    background-color: rgb(31, 31, 31);
+    width: 6em;
+    border-radius: 0.5em;
+    text-align: center;
+    height: 1.8em;
+    margin-top: 1em;
+
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+ 
+@media (max-width:900px){
+    .flexContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .container{
+        width: 32em;
+        /* height: 20em; */
+        margin-top: 5em;
+        flex-direction: row;
+        min-height: 12em;
+        align-items: center;
+    }
+.flexContainer2{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.flexContainer3{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            align-items: center;
+    margin-top: 2em;
+}
+
+.container2{
+    width: 32em;
+    min-height: 20em;
+}
+
+.container3{
+    width: 32em;
+}
+
+.container3Text{
+    width: 32em;
+}
+
+.container3Text h3{
+    font-size: .9em;
+}
+
+.logoCont3{
+    width: 5em;
+    height: 5em;
+}
+
+.container31{
+    width: 32em;
+    min-height: 10em;
+}
+}
+
+
+@media (max-width: 768px) {
+    .flexContainer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+.container{
+    width: 20em;
+    /* height: 20em; */
+    margin-top: 5em;
+    flex-direction: column;
+    min-height: 10em;
+    align-items: center;
+}
+.flexContainer2{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.flexContainer3{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            align-items: center;
+    margin-top: 2em;
+}
+
+.container2{
+    width: 20em;
+    min-height: 20em;
+}
+
+.container3{
+    width: 20em;
+}
+
+.container3Text{
+    width: 10em;
+}
+
+.container3Text h3{
+    font-size: .9em;
+}
+
+.logoCont3{
+    width: 5em;
+    height: 5em;
+}
+
+.container31{
+    width: 20em;
+    min-height: 10em;
+}
+}
